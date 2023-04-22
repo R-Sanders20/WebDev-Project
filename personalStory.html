@@ -7,34 +7,50 @@
 </head>
 
 <body>
-    <div class="container">
+   <div class="container">
         <div class="pages">
-            <div class="page one">
+            <div class="page one" id="page1">
                 <h1>PAGE 1</h1>
                 <div>
-                    <button onClick="slide('next')">Next</button>
+                    <button onClick="slide('next')">
+                        <a href="#page2">Next</a>
+                    </button>
                 </div>
             </div>
-            <div class="page two">
+
+            <div class="page two" id="page2">
                 <h1>PAGE 2</h1>
                 <div>
-                    <button onClick="slide('prev')">Previous</button>
-                    <button onClick="slide('next')">Next</button>
+                    <button onClick="slide('prev')">
+                        <a href="#page1">Previous</a>
+                    </button>
+                    <button onClick="slide('next')">
+                        <a href="#page3">Next</a>
+                    </button>
                 </div>
             </div>
-            <div class="page three">
+
+            <div class="page three" id="page3">
                 <h1>PAGE 3</h1>
                 <div>
-                    <button onClick="slide('prev')">Previous</button>
-                    <button onClick="slide('next')">Next</button>
+                    <button onClick="slide('prev')">
+                        <a href="#page2">Previous</a>
+                    </button>
+                    <button onClick="slide('next')">
+                        <a href="#page4">Next</a>
+                    </button>
                 </div>
             </div>
-            <div class="page four">
+
+            <div class="page four" id="page4">
                 <h1>PAGE 4</h1>
                 <div>
-                    <button onClick="slide('prev')">Previous</button>
+                    <button onClick="slide('prev')">
+                        <a href="#page3">Previous</a>
+                    </button>
                 </div>
             </div>
+
         </div>
     </div>
 </body>
