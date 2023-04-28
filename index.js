@@ -1,17 +1,17 @@
-const pages = document.querySelectorAll(".pages");
+/*const pages = document.querySelectorAll(".pages");
 const translateAmount = 100;
 let translate = 0;
 
 slide = (direction) => {
     direction === "next" ? translate += translateAmount : translate -= translateAmount;
-   /* pages.forEach(
+    pages.forEach(
             pages => (pages.style.transform = `translateX(${translate}%)`)
 
           );
-          console.log(translate)*/
+          console.log(translate)
         }
 
-/*slide = (direction) => {
+slide = (direction) => {
     if(direction === "next"){
         translate = translate + translateAmount;
     }else if (direction !== "next"){
