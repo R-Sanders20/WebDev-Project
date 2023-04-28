@@ -4,11 +4,11 @@ let translate = 0;
 
 slide = (direction) => {
     direction === "next" ? translate += translateAmount : translate -= translateAmount;
-    pages.forEach(
+   /* pages.forEach(
             pages => (pages.style.transform = `translateX(${translate}%)`)
 
           );
-          console.log(translate)
+          console.log(translate)*/
         }
 
 /*slide = (direction) => {
