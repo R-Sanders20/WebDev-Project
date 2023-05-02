@@ -6,7 +6,10 @@
     scroll-behavior: smooth;
     font-family: 'Montserrat', sans-serif;
 }
-
+.header {
+    justify-content: center;
+    align-items: center;
+}
 a {
     padding: 8px;
     width: 100px;
@@ -25,20 +28,21 @@ a {
 color: white;
 text-decoration: none;
 }
+
 .container {
     width: 100%;
     overflow: hidden;
 }
 
 .pages {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     width: 400%;
     box-sizing: border-box;
 }
 
 .page {
-    width: 500px;
+    width: 100%;
     height: 500px;
     display: flex;
     align-items: center;
@@ -47,7 +51,8 @@ text-decoration: none;
     gap: 10px;
     transition: all 0.7s;
     color: white;
-    margin-left: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 .one {
