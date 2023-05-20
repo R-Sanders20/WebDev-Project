@@ -1,3 +1,5 @@
+
+
 /*const pages = document.querySelectorAll(".pages");
 const translateAmount = 100;
 let translate = 0;
