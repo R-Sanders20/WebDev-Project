@@ -257,14 +257,7 @@ a:hover {
   .Merlin {
 background-color: #d69147;
   }
-  .MainText {
-    width: 50%;
-    justify-content: center;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 15px;
-    display: flex
-  }
+  
   .LizzieImg img {
     Width: 30%;
     height: auto;
@@ -278,6 +271,13 @@ background-color: #d69147;
     box-shadow: 10px 10px 10px black inset;
     background-color: #8A2BE2;
   }
+  .LizzieText {
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 15px;
+  }
   .LizzieImg {
     display: flex;
     justify-content: center;
@@ -285,17 +285,66 @@ background-color: #d69147;
     margin: auto;
   }
   .HomeIntro {
-    display: flex;
+    float: middle;
+    width: 80%;
     margin: auto;
+    justify-content: center;
   }
+  
   .Main {
     text-align: center;
     margin: auto;
     margin-bottom: 15px;
-    display: flex;
+    float: middle;
   }
-  .Main img {
-    width: 20%;
+  .MainText {
+    width: 50%;
+    justify-content: center;
+    text-align: center;
     margin: auto;
-    display: flex;
+    margin-bottom: 15px;
+    float: right;
+  }
+  .MainImgLeft {
+    width: 35%;
+    margin: auto;
+    float: left;
+    border: solid black 5px;
+    filter: drop-shadow(5px 5px 4px #32a852);
+  }
+  .MainImgRight {
+    Width: 40%;
+    margin: 20px;
+    border: solid black 5px;
+    filter: drop-shadow(5px 5px 4px #32a852);
+  }
+  .sketches {
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+    display: inline-block;
+    width: 100%;
+  }
+  .sketches h2{
+    background-color: #32a88e;
+    padding: 10px;
+  }
+  .sketchText {
+    text-align: center;
+  }
+  .sketchImg {
+    justify-content: center;
+    margin: auto;
+    float: middle;
+    width: 100%;
+    text-align: center;
+  }
+  .sketchImg img{
+    width: 25%;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+    border: #333 solid 5px;
+    border-radius: 20px;
+    float: middle;
   }
