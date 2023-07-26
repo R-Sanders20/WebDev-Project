@@ -6,15 +6,27 @@
     scroll-behavior: smooth;
     font-family: 'Montserrat', sans-serif;
 }
+body {
+  background-color: #9ac0fc;
+}
+nav a{
+  gap: 20px;
+  border: solid 2px black;
+  margin: 5px;
+  text-decoration: none;
+}
 h1{
    text-align: center;
 }
-
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
 nav{
     margin-top: 20px;
     text-align: center;
     margin-bottom: 20px;
-}
+    }
 header{
     text-align: center;
     padding-top: 20px;
@@ -171,7 +183,7 @@ a:hover {
   .PreWorkContent {
     display: inline-flex;
     flex-direction: row;
-    width: 1100%;
+    width: 800%;
     box-sizing: border-box;
     overflow: hidden;
   }
@@ -205,4 +217,85 @@ a:hover {
     height: auto;
     justify-content: center;
     gap: 10px;
+  }
+  .PreWork p {
+    margin:0px;
+    border: 0px;
+    justify-content: center;
+    width: 75%;
+  }
+  #colourisation img {
+    width: 30%
+  }
+  #VisArt img {
+    width: 30%;
+  }
+  #AudArt img {
+    width: 30%;
+  }
+ 
+  .MerlinText {
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+  }
+  .MerlinImg img{
+    width: 20%;
+    height: auto;
+    margin: 20px;
+    border: solid 2px black;
+    padding: 5px;
+  }
+  .MerlinImg {
+    float: center;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .Merlin {
+background-color: #d69147;
+  }
+  .MainText {
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 15px;
+    display: flex
+  }
+  .LizzieImg img {
+    Width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin: 20px;
+    border: solid 2px black;
+    padding: 5px;
+    box-shadow: 10px 10px 10px black inset;
+    background-color: #8A2BE2;
+  }
+  .LizzieImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .HomeIntro {
+    display: flex;
+    margin: auto;
+  }
+  .Main {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 15px;
+    display: flex;
+  }
+  .Main img {
+    width: 20%;
+    margin: auto;
+    display: flex;
   }
