@@ -240,6 +240,13 @@ a:hover {
     text-align: center;
     margin: auto;
   }
+  .MerlinText2 {
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+  }
   .MerlinImg img{
     width: 20%;
     height: auto;
